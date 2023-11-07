@@ -1,11 +1,11 @@
 import requests
 import sys
 import warnings
+import json
 import configparser
 import logging
-logging.basicConfig(filename='consulta.log', level=logging.INFO)
 
-# Agrega un manejador de archivo
+logging.basicConfig(filename='consulta.log', level=logging.INFO)
 file_handler = logging.FileHandler('consulta.log')
 file_handler.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
@@ -16,9 +16,21 @@ warnings.filterwarnings("ignore")
 config = configparser.ConfigParser()
 config.read('kafkaplugin.ini')
 url = config['API']['Endpoint']
+use_mocks = config['CONFIG'].getboolean('MOCKS')
 
+def get_consumer_groups_mock():
+    try:
+        with open("mock.json", "r") as mock_file:
+            mock_data = json.load(mock_file)
+            logging.info("Usando datos de mock.json")
+            return mock_data["consumerGroups"]
+    except Exception as e:
+        logging.exception("Error al cargar datos de mock.json:")
+        return []
 
 def get_consumer_groups(url):
+    if use_mocks:
+        return get_consumer_groups_mock()
     try:
         response = requests.get(url, verify=False)
 
@@ -57,7 +69,6 @@ def check_state_by_group_id(groups, group_id):
             return
 
     print("0")
-
 
     print(f"No se encontró el grupo con ID {group_id}.")
 

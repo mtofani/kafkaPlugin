@@ -1,0 +1,137 @@
+{
+  "pageCount": 1,
+  "consumerGroups": [
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "huaweiGroup",
+      "members": 10,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 1,
+        "host": "kafka-1",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    },
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "huaweiGroupDEV",
+      "members": 10,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 1,
+        "host": "kafka-1",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    },
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "vno_hw_cosumer",
+      "members": 1,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 1,
+        "host": "kafka-1",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    },
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "vno_zte_cosumer",
+      "members": 1,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 3,
+        "host": "kafka-3",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    },
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "zteGroup",
+      "members": 10,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 3,
+        "host": "kafka-3",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    },
+    {
+      "inherit": "ConsumerGroupDTO",
+      "groupId": "zteGroupDEV",
+      "members": 10,
+      "topics": 1,
+      "simple": false,
+      "partitionAssignor": "range",
+      "state": "STABLE",
+      "coordinator": {
+        "id": 3,
+        "host": "kafka-3",
+        "port": 9092,
+        "bytesInPerSec": null,
+        "bytesOutPerSec": null,
+        "partitionsLeader": null,
+        "partitions": null,
+        "inSyncPartitions": null,
+        "partitionsSkew": null,
+        "leadersSkew": null
+      },
+      "messagesBehind": 0
+    }
+  ]
+}

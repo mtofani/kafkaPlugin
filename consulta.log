@@ -82,3 +82,143 @@ INFO:root:Ejecutando script...
 2023-11-07 16:36:02,643 - INFO - Ejecutando script...
 INFO:root:[{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
 2023-11-07 16:36:02,757 - INFO - [{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
+INFO:root:Ejecutando script...
+2023-11-07 16:37:56,494 - INFO - Ejecutando script...
+INFO:root:[{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
+2023-11-07 16:37:56,597 - INFO - [{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
+INFO:root:Ejecutando script...
+2023-11-07 16:42:10,541 - INFO - Ejecutando script...
+ERROR:root:Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-11-07 16:42:10,541 - ERROR - Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:root:Ejecutando script...
+2023-11-07 16:44:46,518 - INFO - Ejecutando script...
+ERROR:root:Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-11-07 16:44:46,519 - ERROR - Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:root:Ejecutando script...
+2023-11-07 16:44:51,981 - INFO - Ejecutando script...
+ERROR:root:Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-11-07 16:44:51,981 - ERROR - Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:root:Ejecutando script...
+2023-11-07 16:45:04,103 - INFO - Ejecutando script...
+ERROR:root:Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-11-07 16:45:04,104 - ERROR - Error al cargar datos de mock.json:
+Traceback (most recent call last):
+  File "C:\KAFKAConsumersPY\consumersmonit.py", line 24, in get_consumer_groups_mock
+    mock_data = json.load(mock_file)
+  File "C:\Python39\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:root:Ejecutando script...
+2023-11-07 16:45:18,555 - INFO - Ejecutando script...
+INFO:root:Usando datos de mock.json
+2023-11-07 16:45:18,555 - INFO - Usando datos de mock.json
+INFO:root:Ejecutando script...
+2023-11-07 16:45:19,970 - INFO - Ejecutando script...
+INFO:root:Usando datos de mock.json
+2023-11-07 16:45:19,970 - INFO - Usando datos de mock.json
+INFO:root:Ejecutando script...
+2023-11-07 16:45:29,400 - INFO - Ejecutando script...
+INFO:root:Usando datos de mock.json
+2023-11-07 16:45:29,400 - INFO - Usando datos de mock.json
+INFO:root:Ejecutando script...
+2023-11-07 16:45:31,208 - INFO - Ejecutando script...
+INFO:root:Usando datos de mock.json
+2023-11-07 16:45:31,209 - INFO - Usando datos de mock.json
+INFO:root:Ejecutando script...
+2023-11-07 16:45:34,874 - INFO - Ejecutando script...
+INFO:root:Usando datos de mock.json
+2023-11-07 16:45:34,874 - INFO - Usando datos de mock.json
+INFO:root:Ejecutando script...
+2023-11-07 16:47:12,597 - INFO - Ejecutando script...
+INFO:root:[{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
+2023-11-07 16:47:12,767 - INFO - [{'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'huaweiGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_hw_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 1, 'host': 'kafka-1', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'vno_zte_cosumer', 'members': 1, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroup', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}, {'inherit': 'ConsumerGroupDTO', 'groupId': 'zteGroupDEV', 'members': 10, 'topics': 1, 'simple': False, 'partitionAssignor': 'range', 'state': 'STABLE', 'coordinator': {'id': 3, 'host': 'kafka-3', 'port': 9092, 'bytesInPerSec': None, 'bytesOutPerSec': None, 'partitionsLeader': None, 'partitions': None, 'inSyncPartitions': None, 'partitionsSkew': None, 'leadersSkew': None}, 'messagesBehind': 0}]
