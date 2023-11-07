@@ -2,6 +2,15 @@ import requests
 import sys
 import warnings
 import configparser
+import logging
+logging.basicConfig(filename='consulta.log', level=logging.INFO)
+
+# Agrega un manejador de archivo
+file_handler = logging.FileHandler('consulta.log')
+file_handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logging.getLogger('').addHandler(file_handler)
 
 warnings.filterwarnings("ignore")
 config = configparser.ConfigParser()
@@ -10,13 +19,17 @@ url = config['API']['Endpoint']
 
 
 def get_consumer_groups(url):
-    
-    response = requests.get(url,verify=False)
+    try:
+        response = requests.get(url, verify=False)
 
-    if response.status_code == 200:
-        return response.json()["consumerGroups"]
-    else:
-        print(f"Error al hacer la solicitud. Código de respuesta: {response.status_code}")
+        if response.status_code == 200:
+            logging.info(response.json()["consumerGroups"])
+            return response.json()["consumerGroups"]
+        else:
+            logging.error(f"Error al hacer la solicitud. Código de respuesta: {response.status_code}")
+            return []
+    except Exception as e:
+        logging.exception("Error al hacer la solicitud:")
         return []
 
 def check_stability(groups):
@@ -56,6 +69,7 @@ def check_messages_behind(groups, group_id):
             return
 
 if __name__ == "__main__":
+    logging.info("Ejecutando script...")
     if len(sys.argv) < 2:
         print("Debe proporcionar al menos un argumento.")
         sys.exit(1)
